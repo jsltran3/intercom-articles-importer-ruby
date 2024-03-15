@@ -1,13 +1,15 @@
-EXPORT_ACCESS_TOKEN = "YOUR ACCESS TOKEN"
-IMPORT_ACCESS_TOKEN = "YOUR ACCESS TOKEN"
-COLLECTION_NAME = "YOUR COLLECTION NAME"
-AUTHOR_ID = "YOUR ADMIN ID"
+# Source Intrcom Org (DocketWise)
+EXPORT_ACCESS_TOKEN = "6f4cca74_ddc9_4120_849e_4e87866e76c6"
+# Target Intercom Org (Affinipay Test)
+IMPORT_ACCESS_TOKEN = "35497e64_144f_4dfd_aa65_bc7eebc6e789"
+COLLECTION_NAME = "Contacts and Matters"
+AUTHOR_ID = "c3vx3woz"
 
 
 #If you need to change URLS within your Articles that point to your old Helpcenter, fill in these fields. Otherwise, leave blank.
 REPLACE_ARTICLE_URLS = true
-EXPORT_CUSTOM_DOMAIN = "YOUR CUSTOM DOMAIN HERE"
-IMPORT_CUSTOM_DOMAIN = "NEW CUSTOM DOMAIN HERE"
+EXPORT_CUSTOM_DOMAIN = ""
+IMPORT_CUSTOM_DOMAIN = ""
 
 #commandthatexports-importsarticles
 #List all articles that need to be published
